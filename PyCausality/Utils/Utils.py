@@ -3,7 +3,7 @@ import numpy as np
 from numpy import ma, atleast_2d, pi, sqrt, sum, transpose
 from scipy import stats, optimize, linalg, special
 from scipy.special import gammaln, logsumexp
-from scipy._lib.six import callable, string_types
+from six import callable, string_types
 from scipy.stats.mstats import mquantiles
 
 import matplotlib.pyplot as plt
